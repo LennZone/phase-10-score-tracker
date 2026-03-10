@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.1](https://github.com/LennZone/phase-10-scoreboard/compare/v1.0.0...v1.0.1) (2026-03-10)
+
+
+### Bug Fixes
+
+* update project name and URLs to phase-10-scoreboard ([4016d8c](https://github.com/LennZone/phase-10-scoreboard/commit/4016d8c6a3f71789f0cf1cd62cff82a686408c6a))
+
 ## 1.0.0 (2026-03-10)
 
 
