@@ -154,7 +154,7 @@ export default function Game() {
   return (
     <div className="min-h-screen font-game">
       {/* Sticky header */}
-      <header className="border-white/8 sticky top-0 z-30 border-b bg-[#070711]/80 px-4 py-3 backdrop-blur-xl">
+      <header className="border-white/8 border-b bg-[#070711]/80 px-4 py-3">
         <div className="mx-auto flex max-w-2xl items-center justify-between">
           <div>
             <h1

@@ -1,6 +1,7 @@
 import { useState, useRef, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 import { ChevronDownIcon } from './Icons';
+import DropdownPanel from './DropdownPanel';
 
 const LANGUAGES = [
   { code: 'en', flag: '🇬🇧', label: 'English' },
@@ -41,7 +42,7 @@ export default function LanguageSwitcher() {
       </button>
 
       {open && (
-        <div className="glass-card absolute right-0 z-50 mt-1 min-w-[160px] overflow-hidden rounded-xl">
+        <DropdownPanel className="absolute right-0 z-50 mt-1 min-w-[160px] overflow-hidden rounded-xl">
           {LANGUAGES.map((lang) => (
             <button
               key={lang.code}
@@ -57,7 +58,7 @@ export default function LanguageSwitcher() {
               <span>{lang.label}</span>
             </button>
           ))}
-        </div>
+        </DropdownPanel>
       )}
     </div>
   );
